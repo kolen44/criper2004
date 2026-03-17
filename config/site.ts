@@ -9,7 +9,7 @@ export const config = {
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '5AgZ3gTqwbJSpz91YVoFpcewVYwCFzmtWKUuGEYzpump',
+  contractAddress: '56vad69q4DUB2HhSGLiPJ1kWfgbJogsc9KbZVoAppump',
   
   // === SOCIAL LINKS ===
   twitter: 'https://twitter.com/gake',
