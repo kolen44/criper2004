@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'Sigma Cat',
-  ticker: '$SIGMACAT',
+  name: 'just a meme coin',
+  ticker: '$MEMECOIN',
   tagline: 'To The Moon',
-  description: 'The most sigma cat on the blockchain. Join the grindset and ride to the moon with SIGMACAT!',
+  description: 'Just a meme coin on the blockchain. Simple. Fun. To the moon!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '5L2ougViiNtsBz3sekAonTVeRMByhMA77nd339CQpump',
+  contractAddress: '8DJBZiGj38jTb6aTGSyTwd9A19ZDoJufpMp5kNTGpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/sigmacat',
+  twitter: 'https://twitter.com/memecoin',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is SIGMACAT?',
-      answer: 'SIGMACAT is a community-driven memecoin on Solana featuring the ultimate sigma cat with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is MEMECOIN?',
+      answer: 'MEMECOIN is a community-driven memecoin on Solana. Just a meme coin with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy SIGMACAT?',
-      answer: 'You can buy SIGMACAT on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for SIGMACAT.',
+      question: 'How do I buy MEMECOIN?',
+      answer: 'You can buy MEMECOIN on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for MEMECOIN.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'SIGMACAT - Sigma Cat | Memecoin on Solana',
-    description: 'Join the most sigma cat on the blockchain. SIGMACAT is a community-driven memecoin with a mission to reach the moon.',
-    keywords: 'memecoin, solana, crypto, sigmacat, sigma cat, cat coin, defi',
+    title: 'MEMECOIN - Just a Meme Coin | Memecoin on Solana',
+    description: 'Just a meme coin on the blockchain. Simple. Fun. To the moon!',
+    keywords: 'memecoin, solana, crypto, meme coin, defi',
     ogImage: '/images/og-image.png',
   },
   
