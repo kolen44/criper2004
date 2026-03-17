@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'Sweet Sue Chicken Can',
-  ticker: '$SSCC',
+  name: 'Sigma Cat',
+  ticker: '$SIGMACAT',
   tagline: 'To The Moon',
-  description: 'The tastiest meme on the blockchain. Join the feast and ride to the moon with SSCC!',
+  description: 'The most sigma cat on the blockchain. Join the grindset and ride to the moon with SIGMACAT!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '596jLTNFRmpHAcnjXmzET1a3EpTi2M4VG1eYqAuwpump',
+  contractAddress: '5L2ougViiNtsBz3sekAonTVeRMByhMA77nd339CQpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/sscc',
+  twitter: 'https://twitter.com/sigmacat',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is SSCC?',
-      answer: 'SSCC is a community-driven memecoin on Solana featuring the iconic Sweet Sue Chicken Can with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is SIGMACAT?',
+      answer: 'SIGMACAT is a community-driven memecoin on Solana featuring the ultimate sigma cat with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy SSCC?',
-      answer: 'You can buy SSCC on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for SSCC.',
+      question: 'How do I buy SIGMACAT?',
+      answer: 'You can buy SIGMACAT on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for SIGMACAT.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'SSCC - Sweet Sue Chicken Can | Memecoin on Solana',
-    description: 'Join the tastiest meme on the blockchain. SSCC is a community-driven memecoin with a mission to reach the moon.',
-    keywords: 'memecoin, solana, crypto, sscc, sweet sue, chicken can, defi',
+    title: 'SIGMACAT - Sigma Cat | Memecoin on Solana',
+    description: 'Join the most sigma cat on the blockchain. SIGMACAT is a community-driven memecoin with a mission to reach the moon.',
+    keywords: 'memecoin, solana, crypto, sigmacat, sigma cat, cat coin, defi',
     ogImage: '/images/og-image.png',
   },
   
