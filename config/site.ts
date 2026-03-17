@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'Ms. Dot',
-  ticker: '$DOT',
+  name: 'murc andreezon',
+  ticker: '$ANDREEZON',
   tagline: 'To The Moon',
-  description: 'Ms. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
+  description: 'murc andreezon is here on the blockchain. Join the journey to the moon with ANDREEZON!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '5Eph9rviLeRUKfj2bYTcpKZtGseDVNw6XK4AmnfJpump',
+  contractAddress: '4o5u3UkEV3dSsP2W2a9ev7jHspeAeALDLhJKTrVSpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/mrdot',
+  twitter: 'https://twitter.com/andreezon',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is DOT?',
-      answer: 'DOT is a community-driven memecoin on Solana featuring Mr. Dot with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is ANDREEZON?',
+      answer: 'ANDREEZON is a community-driven memecoin on Solana featuring murc andreezon with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy DOT?',
-      answer: 'You can buy DOT on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for DOT.',
+      question: 'How do I buy ANDREEZON?',
+      answer: 'You can buy ANDREEZON on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for ANDREEZON.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'DOT - Ms. Dot | Memecoin on Solana',
-    description: 'Ms. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
-    keywords: 'memecoin, solana, crypto, dot, mr dot, defi',
+    title: 'ANDREEZON - murc andreezon | Memecoin on Solana',
+    description: 'murc andreezon is here on the blockchain. Join the journey to the moon with ANDREEZON!',
+    keywords: 'memecoin, solana, crypto, andreezon, murc, defi',
     ogImage: '/images/og-image.png',
   },
   
