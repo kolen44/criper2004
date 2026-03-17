@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { siteConfig } from '@/config/site';
 import { RocketIcon, CopyIcon, CheckIcon, SparklesIcon, ArrowRightIcon, ChevronDownIcon, ChartIcon } from '@/components/ui/Icons';
 import styles from './Hero.module.css';
@@ -64,6 +65,33 @@ export function Hero() {
 
         {/* Description */}
         <p className={styles.description}>{siteConfig.description}</p>
+
+        {/* Token Showcase */}
+        <div className={styles.tokenShowcase}>
+          <div className={styles.tokenImageWrapper}>
+            <div className={styles.tokenImageGlow} />
+            <Image
+              src="/niga.jpg"
+              alt={siteConfig.name}
+              width={180}
+              height={180}
+              className={styles.tokenImage}
+              priority
+            />
+          </div>
+          <div className={styles.tokenInfo}>
+            <div className={styles.tokenBadge}>
+              <SparklesIcon size={14} color="#39FF14" />
+              <span>Solana Token</span>
+            </div>
+            <div className={styles.tokenName}>{siteConfig.name}</div>
+            <div className={styles.tokenTicker}>{siteConfig.ticker}</div>
+            <div className={styles.tokenNetwork}>
+              <span className={styles.networkDot} />
+              Pump.fun Launch
+            </div>
+          </div>
+        </div>
 
         {/* Stats */}
         <div className={styles.stats}>
