@@ -2,10 +2,10 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'Mr. Dot',
+  name: 'Ms. Dot',
   ticker: '$DOT',
   tagline: 'To The Moon',
-  description: 'Mr. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
+  description: 'Ms. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
@@ -198,8 +198,8 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'DOT - Mr. Dot | Memecoin on Solana',
-    description: 'Mr. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
+    title: 'DOT - Ms. Dot | Memecoin on Solana',
+    description: 'Ms. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
     keywords: 'memecoin, solana, crypto, dot, mr dot, defi',
     ogImage: '/images/og-image.png',
   },
