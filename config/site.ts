@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'MOONDOG',
-  ticker: '$MOONDOG',
+  name: 'Gake The Pygmy Hippo',
+  ticker: '$GAKE',
   tagline: 'To The Moon',
-  description: 'The most ambitious dog on the blockchain. Join the pack and ride to the moon with MOONDOG!',
+  description: 'The cutest hippo on the blockchain. Join the herd and ride to the moon with GAKE!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '6D1hQ22C7oCUKKVuy91i8HTHnzSjsHCuNAcH9WH2pump',
+  contractAddress: '5AgZ3gTqwbJSpz91YVoFpcewVYwCFzmtWKUuGEYzpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/moondog',
+  twitter: 'https://twitter.com/gake',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is MOONDOG?',
-      answer: 'MOONDOG is a community-driven memecoin on Solana with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is GAKE?',
+      answer: 'GAKE is a community-driven memecoin on Solana featuring the cutest pygmy hippo with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy MOONDOG?',
-      answer: 'You can buy MOONDOG on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for MOONDOG.',
+      question: 'How do I buy GAKE?',
+      answer: 'You can buy GAKE on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for GAKE.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'MOONDOG - To The Moon | Memecoin on Solana',
-    description: 'Join the most ambitious dog on the blockchain. MOONDOG is a community-driven memecoin with a mission to reach the moon.',
-    keywords: 'memecoin, solana, crypto, moondog, dog coin, defi',
+    title: 'GAKE - The Pygmy Hippo | Memecoin on Solana',
+    description: 'Join the cutest pygmy hippo on the blockchain. GAKE is a community-driven memecoin with a mission to reach the moon.',
+    keywords: 'memecoin, solana, crypto, gake, pygmy hippo, hippo coin, defi',
     ogImage: '/images/og-image.png',
   },
   
