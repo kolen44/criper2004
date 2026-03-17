@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'just a meme coin',
-  ticker: '$MEMECOIN',
+  name: 'Mr. Dot',
+  ticker: '$DOT',
   tagline: 'To The Moon',
-  description: 'Just a meme coin on the blockchain. Simple. Fun. To the moon!',
+  description: 'Mr. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '8DJBZiGj38jTb6aTGSyTwd9A19ZDoJufpMp5kNTGpump',
+  contractAddress: '5Eph9rviLeRUKfj2bYTcpKZtGseDVNw6XK4AmnfJpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/memecoin',
+  twitter: 'https://twitter.com/mrdot',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is MEMECOIN?',
-      answer: 'MEMECOIN is a community-driven memecoin on Solana. Just a meme coin with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is DOT?',
+      answer: 'DOT is a community-driven memecoin on Solana featuring Mr. Dot with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy MEMECOIN?',
-      answer: 'You can buy MEMECOIN on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for MEMECOIN.',
+      question: 'How do I buy DOT?',
+      answer: 'You can buy DOT on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for DOT.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'MEMECOIN - Just a Meme Coin | Memecoin on Solana',
-    description: 'Just a meme coin on the blockchain. Simple. Fun. To the moon!',
-    keywords: 'memecoin, solana, crypto, meme coin, defi',
+    title: 'DOT - Mr. Dot | Memecoin on Solana',
+    description: 'Mr. Dot is here to connect the dots on the blockchain. Join the journey to the moon!',
+    keywords: 'memecoin, solana, crypto, dot, mr dot, defi',
     ogImage: '/images/og-image.png',
   },
   
