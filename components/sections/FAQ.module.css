@@ -1,0 +1,267 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 8px 16px;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #00D4FF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, #FFD700 0%, #FF6B35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 40px;
+  align-items: start;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.itemVisible {
+  animation: itemAppear 0.5s ease forwards;
+}
+
+@keyframes itemAppear {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.itemOpen {
+  border-color: rgba(255, 215, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 20px 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.question:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.questionNumber {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #FFD700;
+  opacity: 0.6;
+}
+
+.questionText {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+  color: #FFD700;
+}
+
+.answerWrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.answerWrapperOpen {
+  grid-template-rows: 1fr;
+}
+
+.answer {
+  overflow: hidden;
+}
+
+.answer p {
+  padding: 0 24px 20px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 16px;
+  margin-top: 0;
+}
+
+.sideCard {
+  position: sticky;
+  top: 100px;
+  padding: 32px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.05) 0%, rgba(255, 107, 53, 0.05) 100%);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 24px;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.sideCardVisible {
+  animation: sideCardAppear 0.6s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes sideCardAppear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sideCardGlow {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.sideCardContent {
+  position: relative;
+}
+
+.sideCardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.sideCardText {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.sideCardButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #FFD700 0%, #FF6B35 100%);
+  border: none;
+  border-radius: 50px;
+  color: #0A0A0F;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.sideCardButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+.decoration {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  opacity: 0.05;
+  font-size: 8rem;
+  font-weight: 900;
+  color: white;
+  pointer-events: none;
+}
+
+.decorationEmoji {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .faqGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .sideCard {
+    position: static;
+    order: -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .question {
+    padding: 16px 20px;
+  }
+
+  .answer p {
+    padding: 0 20px 16px;
+  }
+}
