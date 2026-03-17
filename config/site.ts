@@ -2,17 +2,17 @@
 
 export const config = {
   // === BASIC INFO ===
-  name: 'Gake The Pygmy Hippo',
-  ticker: '$GAKE',
+  name: 'Sweet Sue Chicken Can',
+  ticker: '$SSCC',
   tagline: 'To The Moon',
-  description: 'The cutest hippo on the blockchain. Join the herd and ride to the moon with GAKE!',
+  description: 'The tastiest meme on the blockchain. Join the feast and ride to the moon with SSCC!',
   
   // === CONTRACT ADDRESS ===
   // This is the main contract address - all links will use this automatically
-  contractAddress: '56vad69q4DUB2HhSGLiPJ1kWfgbJogsc9KbZVoAppump',
+  contractAddress: '596jLTNFRmpHAcnjXmzET1a3EpTi2M4VG1eYqAuwpump',
   
   // === SOCIAL LINKS ===
-  twitter: 'https://twitter.com/gake',
+  twitter: 'https://twitter.com/sscc',
   
   // === STATS (Goals & Aspirations) ===
   stats: {
@@ -175,12 +175,12 @@ export const config = {
   // === FAQ ===
   faq: [
     {
-      question: 'What is GAKE?',
-      answer: 'GAKE is a community-driven memecoin on Solana featuring the cutest pygmy hippo with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
+      question: 'What is SSCC?',
+      answer: 'SSCC is a community-driven memecoin on Solana featuring the iconic Sweet Sue Chicken Can with ambitions to reach the moon. We combine fun with viral potential and a strong community.',
     },
     {
-      question: 'How do I buy GAKE?',
-      answer: 'You can buy GAKE on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for GAKE.',
+      question: 'How do I buy SSCC?',
+      answer: 'You can buy SSCC on pump.fun. Simply connect your wallet, paste our contract address, and swap SOL for SSCC.',
     },
     {
       question: 'Why should I join early?',
@@ -198,9 +198,9 @@ export const config = {
   
   // === SEO ===
   seo: {
-    title: 'GAKE - The Pygmy Hippo | Memecoin on Solana',
-    description: 'Join the cutest pygmy hippo on the blockchain. GAKE is a community-driven memecoin with a mission to reach the moon.',
-    keywords: 'memecoin, solana, crypto, gake, pygmy hippo, hippo coin, defi',
+    title: 'SSCC - Sweet Sue Chicken Can | Memecoin on Solana',
+    description: 'Join the tastiest meme on the blockchain. SSCC is a community-driven memecoin with a mission to reach the moon.',
+    keywords: 'memecoin, solana, crypto, sscc, sweet sue, chicken can, defi',
     ogImage: '/images/og-image.png',
   },
   
