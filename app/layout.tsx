@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: siteConfig.seo.title,
   description: siteConfig.seo.description,
   keywords: siteConfig.seo.keywords,
+  icons: {
+    icon: '/niga.jpg',
+    shortcut: '/niga.jpg',
+    apple: '/niga.jpg',
+  },
   openGraph: {
     title: siteConfig.seo.title,
     description: siteConfig.seo.description,

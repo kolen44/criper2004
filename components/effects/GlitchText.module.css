@@ -1,0 +1,114 @@
+.glitchText {
+  position: relative;
+  display: inline-block;
+}
+
+.glitchText::before,
+.glitchText::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.glitchText::before {
+  color: #FF10F0;
+  z-index: -1;
+}
+
+.glitchText::after {
+  color: #00D4FF;
+  z-index: -1;
+}
+
+/* Glitch activated */
+.glitchText.active::before {
+  animation: glitchTop 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  opacity: 0.8;
+}
+
+.glitchText.active::after {
+  animation: glitchBottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  opacity: 0.8;
+}
+
+/* Low intensity */
+.glitchText.low.active::before,
+.glitchText.low.active::after {
+  animation-duration: 0.15s;
+}
+
+/* High intensity */
+.glitchText.high.active::before,
+.glitchText.high.active::after {
+  animation-duration: 0.3s;
+}
+
+@keyframes glitchTop {
+  0% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-3px, -3px);
+    opacity: 0.8;
+  }
+  40% {
+    transform: translate(3px, 3px);
+    opacity: 0.6;
+  }
+  60% {
+    transform: translate(-2px, 2px);
+    opacity: 0.8;
+  }
+  80% {
+    transform: translate(2px, -2px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
+@keyframes glitchBottom {
+  0% {
+    transform: translate(0);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(3px, 3px);
+    opacity: 0.8;
+  }
+  40% {
+    transform: translate(-3px, -3px);
+    opacity: 0.6;
+  }
+  60% {
+    transform: translate(2px, -2px);
+    opacity: 0.8;
+  }
+  80% {
+    transform: translate(-2px, 2px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 0;
+  }
+}
+
+/* Continuous glitch effect on hover */
+.glitchText:hover::before {
+  animation: glitchTop 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  opacity: 0.8;
+}
+
+.glitchText:hover::after {
+  animation: glitchBottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  animation-delay: 0.05s;
+  opacity: 0.8;
+}

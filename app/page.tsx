@@ -8,10 +8,13 @@ import { Community } from '@/components/sections/Community';
 import { Roadmap } from '@/components/sections/Roadmap';
 import FAQ from '@/components/sections/FAQ';
 import CTA from '@/components/sections/CTA';
+import { CursorGlow, BackgroundEffects } from '@/components/effects';
 
 export default function Home() {
   return (
     <>
+      <BackgroundEffects />
+      <CursorGlow />
       <Header />
       <main>
         <Hero />

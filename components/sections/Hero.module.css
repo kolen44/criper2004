@@ -578,10 +578,10 @@
 
   .chartMenu {
     position: fixed;
+    top: auto;
     bottom: 80px;
     left: 20px;
     right: 20px;
-    top: auto;
     transform: none;
   }
 }
@@ -589,11 +589,12 @@
 /* Chart Dropdown */
 .chartDropdown {
   position: relative;
+  z-index: 100;
 }
 
 .chartMenu {
   position: absolute;
-  top: calc(100% + 12px);
+  bottom: calc(100% + 12px);
   left: 50%;
   transform: translateX(-50%);
   min-width: 200px;
@@ -605,7 +606,7 @@
   z-index: 100;
   animation: dropdownAppear 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: 
-    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 -10px 40px rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.05),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -613,20 +614,20 @@
 .chartMenu::before {
   content: '';
   position: absolute;
-  top: -6px;
+  bottom: -6px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
   width: 12px;
   height: 12px;
   background: rgba(20, 20, 35, 0.98);
-  border-left: 1px solid rgba(255, 215, 0, 0.15);
-  border-top: 1px solid rgba(255, 215, 0, 0.15);
+  border-right: 1px solid rgba(255, 215, 0, 0.15);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.15);
 }
 
 @keyframes dropdownAppear {
   from {
     opacity: 0;
-    transform: translateX(-50%) translateY(-15px) scale(0.95);
+    transform: translateX(-50%) translateY(15px) scale(0.95);
   }
   to {
     opacity: 1;

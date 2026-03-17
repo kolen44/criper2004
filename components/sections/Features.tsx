@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { siteConfig } from '@/config/site';
 import { Icon } from '@/components/ui/Icons';
 import styles from './Features.module.css';
@@ -26,6 +26,16 @@ export function Features() {
     return () => observer.disconnect();
   }, []);
 
+  // Card spotlight effect handler
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const card = e.currentTarget;
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    card.style.setProperty('--mouse-x', `${x}px`);
+    card.style.setProperty('--mouse-y', `${y}px`);
+  }, []);
+
   return (
     <section ref={sectionRef} id="features" className={styles.section}>
       <div className={styles.container}>
@@ -47,6 +57,7 @@ export function Features() {
               key={index}
               className={`${styles.card} ${isVisible ? styles.cardVisible : ''}`}
               style={{ animationDelay: `${index * 0.1}s` }}
+              onMouseMove={handleMouseMove}
             >
               {/* Glow effect */}
               <div className={styles.cardGlow} />

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import { siteConfig } from '@/config/site';
 import { RocketIcon, CopyIcon, CheckIcon, SparklesIcon, ArrowRightIcon, ChevronDownIcon, ChartIcon } from '@/components/ui/Icons';
+import { GlitchText } from '@/components/effects';
 import styles from './Hero.module.css';
 
 export function Hero() {
@@ -59,7 +60,7 @@ export function Hero() {
 
         {/* Title */}
         <h1 className={styles.title}>
-          <span className={styles.titleTop}>{siteConfig.name}</span>
+          <GlitchText text={siteConfig.name} className={styles.titleTop} intensity="medium" />
           <span className={styles.titleBottom}>{siteConfig.tagline}</span>
         </h1>
 

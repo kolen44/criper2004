@@ -1,0 +1,80 @@
+.notification {
+  position: fixed;
+  bottom: 70px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(20, 20, 35, 0.95) 0%, rgba(15, 15, 25, 0.95) 100%);
+  border: 1px solid rgba(57, 255, 20, 0.3);
+  border-radius: 16px;
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(57, 255, 20, 0.1);
+  backdrop-filter: blur(20px);
+  z-index: 1001;
+  transform: translateX(-120%);
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notification.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(57, 255, 20, 0.1);
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #39FF14;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.text {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.wallet {
+  font-family: 'Space Mono', monospace;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+}
+
+.amount {
+  color: #FFD700;
+  font-weight: 700;
+}
+
+.time {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 8px;
+}
+
+@media (max-width: 640px) {
+  .notification {
+    left: 10px;
+    right: 10px;
+    bottom: 60px;
+    padding: 12px;
+  }
+}
